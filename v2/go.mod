@@ -1,4 +1,4 @@
-module github.com/houseofcat/turbocookedrabbit/v2
+module github.com/tiggerite/turbocookedrabbit/v2
 
 go 1.18
 
