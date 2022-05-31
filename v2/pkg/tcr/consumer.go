@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/streadway/amqp"
 )
 
 // Consumer receives messages from a RabbitMQ location.

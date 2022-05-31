@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/streadway/amqp"
 )
 
 // PublishReceipt is a way to monitor publishing success and to initiate a retry when using async publishing.

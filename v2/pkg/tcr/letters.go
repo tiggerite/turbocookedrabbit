@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/streadway/amqp"
 )
 
 var mockRandomSource = rand.NewSource(time.Now().UnixNano())

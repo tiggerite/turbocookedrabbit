@@ -3,7 +3,7 @@ package tcr
 import (
 	"errors"
 
-	amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/streadway/amqp"
 )
 
 const (

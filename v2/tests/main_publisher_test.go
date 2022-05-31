@@ -7,7 +7,7 @@ import (
 
 	"github.com/fortytw2/leaktest"
 	"github.com/houseofcat/turbocookedrabbit/v2/pkg/tcr"
-	amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/streadway/amqp"
 	"github.com/stretchr/testify/assert"
 )
 

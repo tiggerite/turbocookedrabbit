@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/Workiva/go-datastructures/queue"
-	amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/streadway/amqp"
 )
 
 // ConnectionPool houses the pool of RabbitMQ connections.
@@ -156,7 +156,7 @@ func (cp *ConnectionPool) verifyHealthyConnection(connHost *ConnectionHost) {
 	flagged := cp.isConnectionFlagged(connHost.ConnectionID)
 
 	// Between these three states we do our best to determine that a connection is dead in the various lifecycles.
-	if flagged || !healthy || connHost.Connection.IsClosed( /* atomic */) {
+	if flagged || !healthy || connHost.Connection.IsClosed( /* atomic */ ) {
 		cp.triggerConnectionRecovery(connHost)
 	}
 

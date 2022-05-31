@@ -1,6 +1,6 @@
 package tcr
 
-import amqp "github.com/rabbitmq/amqp091-go"
+import "github.com/streadway/amqp"
 
 // Exchange allows for you to create Exchange topology.
 type Exchange struct {

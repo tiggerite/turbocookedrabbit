@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/streadway/amqp"
 )
 
 // ConnectionHost is an internal representation of amqp.Connection.

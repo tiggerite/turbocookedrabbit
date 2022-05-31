@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/streadway/amqp"
 )
 
 // RabbitService is the struct for containing all you need for RabbitMQ access.
