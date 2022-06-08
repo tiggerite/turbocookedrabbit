@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/houseofcat/turbocookedrabbit/v2/pkg/tcr"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/stretchr/testify/assert"
+	"github.com/tiggerite/turbocookedrabbit/v2/pkg/tcr"
 )
 
 func TestCompressAndDecompressWithGzip(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/fortytw2/leaktest"
-	"github.com/houseofcat/turbocookedrabbit/v2/pkg/tcr"
 	"github.com/stretchr/testify/assert"
+	"github.com/tiggerite/turbocookedrabbit/v2/pkg/tcr"
 )
 
 func TestCreateRabbitService(t *testing.T) {

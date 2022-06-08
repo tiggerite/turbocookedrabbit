@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/houseofcat/turbocookedrabbit/v2/pkg/tcr"
 	cmap "github.com/orcaman/concurrent-map"
 	"github.com/stretchr/testify/assert"
+	"github.com/tiggerite/turbocookedrabbit/v2/pkg/tcr"
 )
 
 func TestWithStress(t *testing.T) {

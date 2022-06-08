@@ -3,8 +3,8 @@ package main_test
 import (
 	"testing"
 
-	"github.com/houseofcat/turbocookedrabbit/v2/pkg/tcr"
 	"github.com/stretchr/testify/assert"
+	"github.com/tiggerite/turbocookedrabbit/v2/pkg/tcr"
 )
 
 func TestReadConfig(t *testing.T) {

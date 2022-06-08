@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/fortytw2/leaktest"
-	"github.com/houseofcat/turbocookedrabbit/v2/pkg/tcr"
 	"github.com/streadway/amqp"
 	"github.com/stretchr/testify/assert"
+	"github.com/tiggerite/turbocookedrabbit/v2/pkg/tcr"
 )
 
 // TestBasicPublish is used for some baseline numbers using primarily streadway/amqp.

@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/houseofcat/turbocookedrabbit/v2/pkg/tcr"
+	"github.com/tiggerite/turbocookedrabbit/v2/pkg/tcr"
 )
 
 // Examples - Publishing

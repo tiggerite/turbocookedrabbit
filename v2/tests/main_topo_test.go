@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/houseofcat/turbocookedrabbit/v2/pkg/tcr"
 	"github.com/streadway/amqp"
 	"github.com/stretchr/testify/assert"
+	"github.com/tiggerite/turbocookedrabbit/v2/pkg/tcr"
 )
 
 func TestReadTopologyConfig(t *testing.T) {
